@@ -1,7 +1,6 @@
 E-Blood Bank Management System
 Overview
 The E-Blood Bank Management System is a web-based application designed to streamline the process of blood donation and management. It connects donors and recipients, making it easier to manage blood donations, requests, and related information efficiently.
-
 Features
 User Registration and Login: Users can sign up and log in to access the system.
 Donor Management: Add, update, and manage donor information.
@@ -49,27 +48,20 @@ Project Structure
 ├── search-donor.php
 ├── sign-up.php
 └── webfonts/
-
-
 Installation
   Clone the repository:
       git clone https://github.com/yourusername/e-blood-bank.git
-
   Navigate to the project directory:
     cd e-blood-bank
-
 Set up the database:
   Import the SQL file located in the database directory into your MySQL database.
   
 Configure the database connection:
   Update the database configuration in config.php.
-
 Usage
 Start the web server:
   php -S localhost:8000
-
 Open your web browser and navigate to http://localhost:8000.
-
 Contributing
   Fork the repository.
   Create a new branch:
@@ -77,15 +69,11 @@ Contributing
     
 Make your changes and commit them:
   git commit -m "Description of changes"
-
 Push to the branch:
   git push origin feature-branch
-
 Open a pull request.
-
 License
   This project is licensed under the MIT License. See the LICENSE file for details.
-
 Acknowledgements
   Bootstrap
   jQuery
